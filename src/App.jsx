@@ -1,6 +1,18 @@
+import React from "react";
+import "./styles/index.css";
+import Dashboard from "./Components/Dashboard/Dashboard";
+import {
+  BrowserRouter,
+} from "react-router-dom";
+
 const App = () => {
-  //don't forget to add font link in index.html
-  return <h1>Subscribe Zainkeepscode</h1>;
+  return (
+    <BrowserRouter>
+      <div>
+        <Dashboard />
+      </div>
+    </BrowserRouter>
+  );
 };
 
 export default App;

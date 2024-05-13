@@ -1,7 +1,127 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+@import url("./contants.scss");
+@import url("./global.scss");
+
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../assets/fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/Gilroy-Regular.woff') format('woff'),
+       url('../assets/fonts/Gilroy-Regular.woff2') format('woff2'),
+       url('../assets/fonts/Gilroy-Regular.ttf') format('truetype');
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#root{
+  overflow: hidden;
+}
+.remember {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.remember > label,
+a {
+  font-size: 12px;
+}
+
+.background {
+  background-image: url("LoginBackground.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: max-content;
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100%;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation0.MuiAlert-root.MuiAlert-colorSuccess.MuiAlert-standardSuccess.MuiAlert-standard.css-1ql91c4-MuiPaper-root-MuiAlert-root {
+  background: white;
+}
+.MuiAlert-icon.css-1ytlwq5-MuiAlert-icon {
+  display: none;
+}
+.MuiAlert-message.css-1pxa9xg-MuiAlert-message {
+  width: 100%;
+}
+
+
+.ant-layout-sider-children{
+background: white;
+}
+
+
+
+.ant-tabs-tab {
+  color: rgb(17, 17, 2) !important; 
+}
+
+
+.tabsformobile .ant-tabs-nav {
+  background-color: transparent;
+  margin-bottom: 1rem !important; 
+}
+
+.tabsformobile .ant-tabs-ink-bar {
+  background-color: #fff !important; 
+}
+.tabsformobile .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: rgba(255,255,255,1);
+  font-size: 14px;
+  font-weight: 400;
+} 
+
+.tabsformobile .ant-tabs .ant-tabs-tab .ant-tabs-tab-btn{
+  color:rgba(195, 201, 214, 1);
+  letter-spacing: 1%;
+  font-weight: 500;
+  font-size: 14px;
+} 
+.ant-tabs-nav {
+  background-color: white; 
+}
+
+.ant-tabs-ink-bar {
+  background-color: rgba(115, 80, 234, 1) !important; /* Set the background color for the active tab */
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+  color: rgba(115, 80, 234, 1);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1%;
+} 
+
+.ant-tabs .ant-tabs-tab .ant-tabs-tab-btn{
+  color:rgba(88, 89, 102, 1) ;
+  letter-spacing: 1%;
+  font-weight: 500;
+  font-size: 14px;
+} 
+
+.ant-tabs-top >.ant-tabs-nav{
+  margin-bottom: 0px;
+}
+.ant-table-thead > tr > th {
+  color: rgba(98, 102, 139, 1) !important;
+  font-weight: 500 !important;
+  font-size: 12px;
+}
+.ant-select > svg{
+  fill:rgba(35, 35, 35, 1) !important
+}

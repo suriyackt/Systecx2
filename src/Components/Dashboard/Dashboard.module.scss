@@ -1,0 +1,40 @@
+@import url("../../styles/contants.scss");
+@import url("../../styles/global.scss");
+
+.icons{
+    fill: red !important;
+}
+.widgetone{
+    background: linear-gradient(
+        to top,
+        rgba(1, 246, 202, 0.44),
+        rgba(255, 255, 255, 1),#fff
+      );
+}
+.widgetlast{
+    background: linear-gradient(
+        to top,
+        #ddfef8,
+        rgba(255, 255, 255, 1),#fff
+      );
+}
+
+
+.widgettwo{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1.4rem 0.5rem 1.6rem;
+    align-items: center;
+    background: rgba(249, 249, 255, 1);
+    border-radius: 28px 28px 0px 0px;
+}
+.profiledata{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem 1.8rem;
+    border-bottom: 1px solid #e1d9d9;
+    height: 75px;
+}

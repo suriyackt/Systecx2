@@ -1,0 +1,77 @@
+@import "../../styles/contants.scss";
+
+@import "../../styles/global.scss";
+
+.widgetthree {
+  background: linear-gradient(
+    to top,
+    rgba(87, 42, 216, 1),
+    rgba(0, 168, 225, 1)
+  );
+}
+.metal,
+.mineral {
+  cursor: pointer;
+  font-family: "Gilroy";
+}
+
+@media only screen and (max-width: 2334) {
+  .chartRound {
+    height: 250;
+    width: 250;
+  }
+}
+@media only screen and (max-width: 1750) {
+  .chartRound {
+    height: 200;
+    width: 200;
+  }
+}
+@media only screen and (max-width: 1630) {
+  .chartRound {
+    height: 222;
+    width: 226;
+  }
+}
+@media only screen and (max-width: "1605px") {
+  .chartRound {
+    height: 210;
+    width: 226;
+  }
+}
+@media only screen and (max-width: 1670) {
+  .chartRound {
+    height: 226;
+    width: 226;
+  }
+}
+@media only screen and (max-width: 1511) {
+  .chartRound {
+    height: 200;
+    width: 200;
+  }
+}
+@media only screen and (max-width: 1526) {
+  .chartRound {
+    height: 205;
+    width: 205;
+  }
+}
+@media only screen and (max-width: 1370) {
+  .chartRound {
+    height: 169;
+    width: 169;
+  }
+}
+
+@media only screen and (max-width: 1185) {
+  .chartRound {
+    height: 135;
+    width: 135;
+  }
+}
+
+.chartRound {
+  height: 250;
+  width: 250;
+}
